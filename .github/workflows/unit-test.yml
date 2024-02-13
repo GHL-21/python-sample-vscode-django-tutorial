@@ -4,11 +4,8 @@ on: [push]
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
-
     steps:
-
     -name: Build with Python 3.9
       uses: actions/checkout@v2
         with:
