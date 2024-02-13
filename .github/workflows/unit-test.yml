@@ -10,7 +10,7 @@ jobs:
     steps:
 
     -build: Build with Python 3.9
-      -uses: actions/checkout@v2
+      -use: actions/checkout@v2
         with:
         python-version: 3.9
 
