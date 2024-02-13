@@ -101,6 +101,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.js
 
 # Exclude collected Django static files
 static_collected
